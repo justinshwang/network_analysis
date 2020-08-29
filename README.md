@@ -11,10 +11,6 @@ libraries. Begin by filtering and printing layers by different headers and exami
 pip install -r requirements.txt
 ```
 
-## Check Network (working)
-
-Determine if network or application/server is responsible for poor performance
-
 ## Bad Processes (incomplete)
 
 Display basic IP information, high layers
