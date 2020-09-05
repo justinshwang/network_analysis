@@ -22,8 +22,10 @@ class Packet(object):
         except:
             print("Nt valid packet number.")
 
-    def print_http_info(self):
+    def print_http_info(self, pkt_num):
+        print("Displaying basic IP info...")
+        pkt = self.cap[pkt_num]
         try:
-
+            print("HTTP HOST: ", pkt.http.host)
         except:
             print("May not contain http request...")
