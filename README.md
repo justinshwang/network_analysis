@@ -1,7 +1,4 @@
-# Packet Project
-
-Packet Project - Explore layers of data in sample, LiveCapture or recently captured PCAP files from Wireshark using pyshark and tshark 
-libraries. Implementing tshark and pyshark libraries to read and analyze network packet layers from Wireshark capture files. Begin by filtering and printing layers by different headers and examining potential places of interest. 
+# Network Analysis
 
 ## Setup
 
@@ -11,10 +8,13 @@ libraries. Implementing tshark and pyshark libraries to read and analyze network
 pip install -r requirements.txt
 ```
 
-## Bad Processes (incomplete)
+## Network Scan
 
-Display basic IP information, high layers
+Discover hosts on current network, displaying name/MAC address and if they are new to the network since last scan. In addition, show hosts broadband consumption.
 
-## Password Catching (incomplete)
+## Packet Project
 
-Try to Parse passwords from packets from telnet, ospf, and ftp 
+Exploring layers of data in sample, LiveCapture or recently captured PCAP files from Wireshark using pyshark and tshark 
+libraries. Implementing tshark and pyshark libraries to read and analyze network packet layers from Wireshark capture files. Begin by filtering and printing layers by different headers and examining potential places of interest. 
+
+
